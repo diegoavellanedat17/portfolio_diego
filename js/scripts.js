@@ -64,3 +64,13 @@ anime({
         easing: 'easeInOutCirc',
         loop:true
   });
+
+  anime({
+    targets:'#logo-svg path',
+    strokeDashoffset: [anime.setDashoffset,0],
+    easing:'easeInOutQuad',
+    duration:2000,
+    stroke: '#534898',
+    direction:'aternate',
+    loop:true
+});
