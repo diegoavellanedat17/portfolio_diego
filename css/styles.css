@@ -64,6 +64,8 @@
 }
 
 
+
+
 body {
   margin: 0;
   font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -2108,6 +2110,23 @@ progress {
 .table-responsive {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+}
+
+
+iframe{
+  width: 300px;
+  height: 240px;
+  overflow:hidden ;
+}
+
+@media(min-width:720px){
+
+  iframe{
+    width: 470px;
+    height: 400px;
+ 
+  }
+
 }
 
 @media (max-width: 575.98px) {
@@ -5426,6 +5445,7 @@ textarea.form-control-lg {
   overflow-y: auto;
   outline: 0;
 }
+
 
 .modal-dialog {
   position: relative;
